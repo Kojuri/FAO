@@ -1,0 +1,37 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+#Règle de redirection
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^404\.html$ index.php[L]
+
+#Règles globales
+
+RewriteRule ^Animes$ index.php?uc=gererAnimes [L]
+RewriteRule ^Anime/(.*)-(.*)$ index.php?uc=gererAnimes&action=consulterAnime&id=$2
+RewriteRule ^Anime/(.*)$ index.php?uc=gererAnimes&action=consulterAnime&id=$1
+RewriteRule ^Episode/(.*)-(.*)$ index.php?uc=gererEpisodes&action=consulterEpisode&id=$2
+RewriteRule ^Episode/(.*)$ index.php?uc=gererEpisodes&action=consulterEpisode&id=$1
+RewriteRule ^Login$ index.php?uc=connexion [L]
+RewriteRule ^Deconnexion$ index.php?uc=deconnexion [L]
+RewriteRule ^ajouterAnime$ index.php?uc=gererAnimes&action=ajouterAnime [L]
+RewriteRule ^supprimerAnime/(.*)$ index.php?uc=gererAnimes&action=supprimerAnime&id=$1
+RewriteRule ^modifierAnime/(.*)$ index.php?uc=gererAnimes&action=modifierAnime&id=$1
+RewriteRule ^ajouterEpisode$ index.php?uc=gererEpisodes&action=ajouterEpisode [L]
+RewriteRule ^ajouterEpisode/(.*)$ index.php?uc=gererEpisodes&action=ajouterEpisode&anime=$1
+RewriteRule ^supprimerEpisode/(.*)$ index.php?uc=gererEpisodes&action=supprimerEpisode&id=$1
+RewriteRule ^modifierEpisode/(.*)$ index.php?uc=gererEpisodes&action=modifierEpisode&id=$1
+RewriteRule ^Genres$ index.php?uc=gererGenres [L]
+RewriteRule ^Genre/(.*)-(.*)$ index.php?uc=gererGenres&action=consulterGenre&id=$2
+RewriteRule ^Genre/(.*)$ index.php?uc=gererGenres&action=consulterGenre&id=$1
+RewriteRule ^Themes$ index.php?uc=gererThemes [L]
+RewriteRule ^Theme/(.*)-(.*)$ index.php?uc=gererThemes&action=consulterTheme&id=$2
+RewriteRule ^Theme/(.*)$ index.php?uc=gererThemes&action=consulterTheme&id=$1
+RewriteRule ^home$ index.php [L]
+
+
+

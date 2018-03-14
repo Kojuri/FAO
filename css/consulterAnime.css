@@ -1,0 +1,342 @@
+.date, .titre{
+  display: inline-block;
+}
+.date{
+  font-style: italic;
+  font-family: 'Monotype Corsiva';
+  font-weight: normal;
+}
+.imgMobile{
+  display: none;
+}
+.titre{
+  font-size: 150%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: #327a81;
+  color: white;
+  font-size: 1.5em;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table img {
+  height: 200px;
+  width: auto;
+}
+
+
+.table-episodes h4{
+	margin: 1em auto;
+}
+.table-episodes hr{
+	margin: 1em auto;
+}
+.table-users {
+  border: 1px solid #327a81;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+
+.anime {
+  width: 100%;
+}
+.table-episodes{
+  max-width: 800px;
+  margin: auto;
+}
+table td, table th {
+  color: #2b686e;
+}
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+table td:last-child {
+  font-size: 0.95em;
+  line-height: 1.4;
+  text-align: left;
+}
+table th {
+  background-color: #daeff1;
+  font-weight: 300;
+}
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #edf7f8;
+}
+.desc{
+  max-height:200px;
+  overflow: hidden;
+  margin-left: 5px;
+}
+@media screen and (max-width: 500px) {
+  table, tr, .anime td {
+    display: block;
+  }
+  tr {
+    position: relative;
+  }
+  .anime tr:first-child {
+    display: none;
+  }
+  .header {
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  .imgPC{
+    display: none;
+  }
+  .imgMobile{
+    display: block;
+    width: 100%;
+    height:auto;
+    border-radius: 10px 10px 0 0;
+  }
+  .anime td:first-child {
+    background-color: #c8e7ea;
+    border-bottom: 1px solid #91ced4;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    width: 100%;
+  }
+  .anime td:last-child {
+    padding-bottom: 1rem !important;
+  }
+  .anime tr {
+    background-color: white !important;
+    border: 1px solid #6cbec6;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+    padding: 0;
+  }
+
+  .table-users{
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    overflow: visible;
+  }
+  .table-episodes{
+    margin: 1em;
+  }
+  .desc{
+    max-height: none;
+    overflow: visible;
+  }
+}
+.episodes tr:nth-child(2n) {
+  background-color: #1a1a1a;
+}
+.episodes tr:nth-child(2n+1) {
+  background-color: #666666;
+}
+.episodes td{
+  border: 1em solid transparent;
+}
+.genres a{
+	color: #46ce39;
+}
+.genres a:hover{
+	color: lightskyblue;
+}
+.themes a{
+	color: orange;
+}
+.themes a:hover{
+	color: yellow;
+}
+.notfound{
+	color:red;
+	margin-left: 10%;
+}
+.episodes tr a{
+  color: lightblue;
+}
+.episodes tr a:hover{
+  color: #ff6666;
+}
+.genres > a, .themes > a{
+  display: inline-block;
+}
+.banner{
+	background: #45484d; /* Old browsers */
+	background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+html, body{
+	background: black;
+}
+h3{
+	color: lightgrey;
+  margin: 1em auto;
+}
+h4{
+	color: lightgrey;
+	margin-left: 10%;
+}
+.notfound{
+	color:red;
+	margin-left: 10%;
+}
+nav{
+	background: #2c539e; /* Old browsers */
+	background: -moz-linear-gradient(top, #2c539e 0%, #2c539e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2c539e 0%,#2c539e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2c539e 0%,#2c539e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+}
+header{
+	padding: 0 0 0 0;
+	margin-bottom: 2%;
+}
+.bt{
+	margin-left: 10%;
+}
+.btDelete{
+    display: inline-block;
+    padding: 8px;
+    background: #CA3943;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;	
+}
+.btDelete a
+{
+	color:white;
+}
+.btDelete a:hover
+{
+	color: yellow;
+	text-decoration:none;
+}
+.btDelete:hover{
+    color: yellow;
+	background: red;
+}
+.btEdit{
+    display: inline-block;
+    padding: 8px;
+    background: #efa31f;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;
+	margin-right:1px;	
+}
+.btEdit a
+{
+	color:white;
+}
+.btEdit a:hover
+{
+	color: pink;
+	text-decoration:none;
+}
+.btEdit:hover{
+    color: pink;
+	background: orange;
+}
+.btAdd{
+    display: inline-block;
+    padding: 6px;
+    background: #15b234;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;
+	
+}
+#addList{
+	margin-left: 88.9%;
+	margin-bottom: 0;
+}
+.btAdd a
+{
+	color:white;
+}
+.btAdd a:hover
+{
+	color: lightblue;
+	text-decoration:none;
+}
+.btAdd:hover{
+    color: lightblue;
+	background: green;
+}
+
+
+
+video{
+	margin-left: 10%;
+	margin-top: 0.3%;
+}
+#content video{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
+.rs{
+	margin-left: 5%;
+	display: inline-block;
+}
+.tw, #fb-foot, .fb_reset, .g-plusone, #___plusone_0{
+	display: inline-block;
+}
+.tw, .g-plusone, #___plusone_0{
+	vertical-align: top;
+}
+@media (min-width: 40rem) {
+	#content video{
+		width: 60%;
+		height: auto;
+		margin-left: 20%;
+	}
+	.rs{
+		margin-left: 20%;
+	}
+}
+
+@media (min-width: 40rem) {
+  #disqus_thread{
+    max-width: 800px;
+		margin: auto;
+	}
+}

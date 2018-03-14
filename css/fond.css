@@ -1,0 +1,331 @@
+.banner{
+	background: #45484d; /* Old browsers */
+	background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+html, body{
+	background: black;
+}
+h3{
+	color: lightgrey;
+	margin-left: 10%;
+}
+h4{
+	color: lightgrey;
+	margin-left: 10%;
+}
+table{
+	color: white;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+/*
+img{
+	max-height: 100px;
+	max-width: 100px;
+}
+*/
+.consult{
+	margin-top: 0;
+}
+.consult img{
+	max-height: 200px;
+	max-width: 200px;
+}
+video{
+	margin-left: 10%;
+	margin-top: 0.3%;
+}
+.table-striped > tbody > tr {
+  background-color: #1a1a1a;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #666666;
+}
+.table-striped a{
+	color: lightblue;
+}
+.table-striped a:hover{
+	color: #ff6666;
+}
+#episodes{
+	margin-left: 10%;
+	margin-top: 1%;
+}
+.episodes{
+	display: inline-block;
+	margin-top: 0;
+}
+#episodes h4{
+	margin-left: 5%;
+}
+#episodes hr{
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 1%;
+	
+}
+.liensGenres a{
+	color: lightgreen;
+}
+.liensGenres a:hover{
+	color: #1a75ff;
+}
+.liensThemes a{
+	color: lightyellow;
+}
+.liensThemes a:hover{
+	color: green;
+}
+.notfound{
+	color:red;
+	margin-left: 10%;
+}
+.annee{
+	font-style: italic;
+	font-size: 50%;
+	color: lightgreen;
+	margin-left: 0.2%;
+}
+.titreanime{
+	font-size: 130%;
+	font-weight: bold;
+	color: lightblue;
+}
+.gt{
+	color: yellow;
+
+}/*
+header{
+	background: url(../images/Astolfo.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}*/
+nav{
+	background: #2c539e; /* Old browsers */
+	background: -moz-linear-gradient(top, #2c539e 0%, #2c539e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2c539e 0%,#2c539e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2c539e 0%,#2c539e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+}
+header{
+	padding: 0 0 0 0;
+	margin-bottom: 2%;
+}
+#formAdd { 
+	margin-left: 10%;
+	width: 70%;
+}
+#formAdd  form{
+	width: 100%;
+}
+
+.bt{
+	margin-left: 10%;
+}
+.btDelete{
+    display: inline-block;
+    padding: 8px;
+    background: #CA3943;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;	
+}
+.btDelete a
+{
+	color:white;
+}
+.btDelete a:hover
+{
+	color: yellow;
+	text-decoration:none;
+}
+.btDelete:hover{
+    color: yellow;
+	background: red;
+}
+.btEdit{
+    display: inline-block;
+    padding: 8px;
+    background: #efa31f;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;
+	margin-right:1px;	
+}
+.btEdit a
+{
+	color:white;
+}
+.btEdit a:hover
+{
+	color: pink;
+	text-decoration:none;
+}
+.btEdit:hover{
+    color: pink;
+	background: orange;
+}
+.btAdd{
+    display: inline-block;
+    padding: 6px;
+    background: #15b234;
+    color: white;
+    text-decoration: none;
+    border:1px solid #CA3943;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	font-size: 100%;
+    vertical-align: middle;
+	
+}
+#addList{
+	margin-left: 88.9%;
+	margin-bottom: 0;
+}
+.btAdd a
+{
+	color:white;
+}
+.btAdd a:hover
+{
+	color: lightblue;
+	text-decoration:none;
+}
+.btAdd:hover{
+    color: lightblue;
+	background: green;
+}
+.titreliste{
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+#tbAnimes{
+	margin-top: 0;
+	margin-left:5%;
+	width: 90%;
+}
+
+.table-responsive{
+	margin-bottom: 0;
+	border: none;
+}
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Custom Select */
+.liste-animes{
+  position: relative;
+  display: block;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.liste-animes::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
+}
+/* Transition */
+.liste-animes:hover::after {
+  color: #f39c12;
+}
+.liste-animes::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+.liGenres{
+	margin-left: 10%;
+	font-size: 120%;
+	font-family: Arial;
+}
+ul{
+	color: white;
+}
+.liGenres a{
+	color: lightgrey;
+}
+#connexion{
+	margin-left: 10%;
+}
+#content video{
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+}
+.titreAnime{
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+.rs{
+	margin-left: 5%;
+	display: inline-block;
+}
+.tw, #fb-foot, .fb_reset, .g-plusone, #___plusone_0{
+	display: inline-block;
+}
+.tw, .g-plusone, #___plusone_0{
+	vertical-align: top;
+}
+@media (min-width: 40rem) {
+	#content video{
+		width: 60%;
+		height: auto;
+		margin-left: 10%;
+	}
+	.rs{
+		margin-left: 10%;
+	}
+	.titreAnime{
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-bottom:0;
+	}
+}
